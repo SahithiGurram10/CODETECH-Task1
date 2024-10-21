@@ -1,8 +1,8 @@
-Name:GURRAM SAHITHI PRATYUSHA
-Company:CODETECH IT SOLUTIONS
-ID:CT08DS8685
-Domain:Data Science
-Mentor:Harish Neelam
+Name: GURRAM SAHITHI PRATYUSHA
+Company: CODETECH IT SOLUTIONS
+ID: CT08DS8685
+Domain: Data Science
+Mentor: Harish Neelam
 
 Project Overview:
 Project Title: Library Management System
@@ -17,7 +17,7 @@ Title: Name of the book.
 Pages: Number of pages in the book.
 Rating: User rating of the book.
 Price: Price of the book.
-This dataset is used to perform clustering analysis and explore patterns among books with similar characteristics.
+This dataset performs clustering analysis and explores patterns among books with similar characteristics.
 
 Clustering Algorithms:
 The project implements three key unsupervised learning techniques to perform clustering:
@@ -26,13 +26,13 @@ K-Means Clustering:
 
 Partitions the books into a set number of clusters based on their features.
 It uses the concept of centroids, iteratively adjusting clusters to minimize the distance between books and their cluster center.
-Evaluation is done using metrics like the silhouette score and Davies–Bouldin index to measure the quality of the clusters formed.
+Evaluation is done using metrics like the silhouette score and the Davies–Bouldin index to measure the quality of the clusters formed.
 
 Hierarchical Clustering:
 
 This algorithm builds a tree-like structure (dendrogram) that shows how individual books or smaller clusters merge to form larger clusters.
 No need to predefine the number of clusters, offering flexibility in understanding relationships among the books.
-The dendrogram helps in identifying the most suitable number of clusters by analyzing the hierarchy.
+The dendrogram helps identify the most suitable clusters by analyzing the hierarchy.
 
 DBSCAN (Density-Based Spatial Clustering of Applications with Noise):
 
